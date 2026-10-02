@@ -46,7 +46,8 @@ npm run test
 - [ ] 🧩 Nenhum **console.log**, comentário temporário ou código morto**
 - [ ] 🧾 Documentação e exemplos **atualizados**, se aplicável
 - [ ] 🧹 Limpeza: Removi `console.log`, comentários temporários, imports não utilizados ou código morto
-      
+
+E finalmente:
 - [ ] 🤝 Esta PR está pronta para **code review**
 
 ---
