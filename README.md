@@ -1,0 +1,2 @@
+# .github
+Configuracões da organizacão
