@@ -1,0 +1,44 @@
+name: Relatório de Bug
+description: Envie um relatório estruturado para nos ajudar a reproduzir e corrigir um erro
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: Obrigado por dedicar seu tempo para enviar este relatório de bug!
+  - type: textarea
+    id: description
+    attributes:
+      label: O que aconteceu?
+      description: Descreva o bug de forma clara e concisa.
+      placeholder: Conte o que deu errado...
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Passos para reproduzir
+      description: Como os mantenedores podem reproduzir este problema?
+      placeholder: |
+        1. Acesse '...'
+        2. Clique em '...'
+        3. Veja o erro
+    validations:
+      required: true
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Ambiente afetado
+      options:
+        - Produção
+        - Homologação / Desenvolvimento
+        - Ambiente Local
+    validations:
+      required: true
+  - type: input
+    id: os-browser
+    attributes:
+      label: Sistema / Navegador / Versão
+      placeholder: ex: Windows 11, Chrome 124, Node v20
+    validations:
+      required: false
