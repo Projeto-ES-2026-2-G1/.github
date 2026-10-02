@@ -21,25 +21,32 @@ Essa PR endereça a(s) tarefa(s):
 
 ---
 
-# 🧪 Qualidade do código
-
-> Garanta que o código atenda aos padrões do projeto antes de enviar para revisão:
-
-- [ ] 🧪 **Testes:** Incluí testes (unitários, integração ou manuais) para a minha alteração
-- [ ] 🏷️ **Padrão de Commits:** Segui a convenção de nomeação de commits/PR (`feat:`, `fix:`, `refactor:`, `chore:`, etc.)
-- [ ] 🔍 **Self-review:** Fiz uma auto-revisão no meu próprio código antes de abrir esta PR
-- [ ] 🧹 **Limpeza:** Removi `console.log`, comentários temporários, imports não utilizados ou código morto
-- [ ] 🎨 **Linter / Formatação:** O código passa nas regras de lint e formatação do projeto
+# 🧪 Como testar
+> Forneça instruções detalhadas para validar esta PR:
+> comandos, endpoints, URLs, variáveis de ambiente, etc.
+Exemplo:
+```bash
+npm install
+npm run start
+npm run test
+```
+**Cenários esperados:**
+1. [ ] A funcionalidade nova funciona conforme descrito
+2. [ ] O sistema existente não foi quebrado
+3. [ ] Não há erros no console ou logs inesperados
 
 ---
 
-# ✅ Checklist de envio
-
-> Confirme que sua PR está pronta para a equipe revisar:
-
+# ✅ Checklist de qualidade
+> Confirme que sua PR está pronta para revisão:
+- [ ] 🏷️ Padrão de Commits: Segui a convenção de nomeação de commits/PR (`feat:`, `fix:`, `refactor:`, `chore:`, etc.)
 - [ ] 🚀 Código **compila e executa corretamente**
 - [ ] 🧠 Alterações **possuem propósito claro** e estão bem descritas
-- [ ] 🧾 Documentação ou diagramas **atualizados**, se aplicável
+- [ ] 🧪 Testes: Incluí testes (unitários, integração ou manuais) para a minha alteração
+- [ ] 🧩 Nenhum **console.log**, comentário temporário ou código morto**
+- [ ] 🧾 Documentação e exemplos **atualizados**, se aplicável
+- [ ] 🧹 Limpeza: Removi `console.log`, comentários temporários, imports não utilizados ou código morto
+      
 - [ ] 🤝 Esta PR está pronta para **code review**
 
 ---
