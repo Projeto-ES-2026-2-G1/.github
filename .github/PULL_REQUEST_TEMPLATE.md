@@ -33,17 +33,18 @@
 
 ---
 
-**Cenários esperados:**
-1. [ ] A funcionalidade nova funciona conforme descrito
-2. [ ] O sistema existente não foi quebrado
-3. [ ] Não há erros no console ou logs inesperados
-
----
-
 ## ✅ Checklist de qualidade
 
 1. [ ] Li o CONTRIBUTING.md
 2. [ ] O sistema existente não foi quebrado (compila e executa normalmente)
 3. [ ] Não há erros no console ou logs inesperados
 4. [ ] Incluí testes (unitários, integração ou manuais) para a minha alteração
-5. [ ] Atualizei a documentação (em caso de ser necessário, como uma nova rota, etc)
+5. [ ] A funcionalidade nova funciona conforme descrito
+6. [ ] Atualizei a documentação (em caso de ser necessário, como uma nova rota, etc)
+
+
+---
+
+# Evidências 
+
+> Inclua prints, logs, ou elementos que provem o funcionamento do que você montou. Se possível.
