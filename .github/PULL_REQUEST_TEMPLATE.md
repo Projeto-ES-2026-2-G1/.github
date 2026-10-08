@@ -1,35 +1,38 @@
-# 📝 Descrição
+# O que mudou?
 
-> Descreva de forma clara e objetiva todas as mudanças realizadas e o problema endereçado.
-> Inclua também a motivação e o contexto da alteração, se necessário.
-
-Essa PR endereça a(s) tarefa(s):
-#<task_id>, #<task_id>, #<task_id>...
+> Um overview do que foi feito nesse PR.
+> "Eu montei um sistema que faz a ação X quando temos eventos Y."
 
 ---
 
-# ⚙ Tipo de alteração
+# Mudanças realizadas
+
+> Detalhe mais sobre o que foi realizado
+> "Eu fiz uso de A, B e C para poder integrar a atividade, segui essa proposta de design D e introduzi uns elmementos na lógica anterior de F para podermos ter a função J, agora F pode fazer..."
+
+---
+
+## Tarefas Relacionadas
+
+ - Issues relacionadas: {issue_link}, ...
+ - Outras dependências: {pr_link}, ...
+
+---
+
+
+## ⚙ Tipo de alteração
 
 > Selecione o tipo de mudança que melhor descreve esta PR:
 
-- [ ] ✨ **Feature** — Nova funcionalidade adicionada ao sistema
-- [ ] 🐛 **Bugfix** — Correção de defeito ou comportamento inesperado
-- [ ] 🧹 **Refactor** — Melhoria no código sem alterar funcionalidade existente
-- [ ] 🧱 **Chore / Infra** — Atualizações de build, CI/CD, dependências ou configurações
-- [ ] 🧾 **Docs / Style** — Atualizações de documentação ou estilo de código
-- [ ] 💥 **Breaking Change** — Modificação que exige ajuste em outras partes do sistema
+- [ ] **Feature** — Nova funcionalidade adicionada ao sistema
+- [ ] **Bugfix** — Correção de defeito ou comportamento inesperado
+- [ ] **Refactor** — Melhoria no código sem alterar funcionalidade existente
+- [ ] **Chore / Infra** — Atualizações de build, CI/CD, dependências ou configurações
+- [ ] **Docs / Style** — Atualizações de documentação ou estilo de código
+- [ ] **Breaking Change** — Modificação que exige ajuste em outras partes do sistema
 
 ---
 
-# 🧪 Como testar
-> Forneça instruções detalhadas para validar esta PR:
-> comandos, endpoints, URLs, variáveis de ambiente, etc.
-Exemplo:
-```bash
-npm install
-npm run start
-npm run test
-```
 **Cenários esperados:**
 1. [ ] A funcionalidade nova funciona conforme descrito
 2. [ ] O sistema existente não foi quebrado
@@ -37,20 +40,10 @@ npm run test
 
 ---
 
-# ✅ Checklist de qualidade
-> Confirme que sua PR está pronta para revisão:
-- [ ] 🏷️ Padrão de Commits: Segui a convenção de nomeação de commits/PR (`feat:`, `fix:`, `refactor:`, `chore:`, etc.)
-- [ ] 🚀 Código **compila e executa corretamente**
-- [ ] 🧠 Alterações **possuem propósito claro** e estão bem descritas
-- [ ] 🧪 Testes: Incluí testes (unitários, integração ou manuais) para a minha alteração
-- [ ] 🧩 Nenhum **console.log**, comentário temporário ou código morto**
-- [ ] 🧾 Documentação e exemplos **atualizados**, se aplicável
-- [ ] 🧹 Limpeza: Removi `console.log`, comentários temporários, imports não utilizados ou código morto
+## ✅ Checklist de qualidade
 
-E finalmente:
-- [ ] 🤝 Esta PR está pronta para **code review**
-
----
-
-> 💡 *Mantenha este PR conciso e descritivo. Um bom PR é fácil de entender, testar e revisar.*
-✨
+1. [ ] Li o CONTRIBUTING.md
+2. [ ] O sistema existente não foi quebrado (compila e executa normalmente)
+3. [ ] Não há erros no console ou logs inesperados
+4. [ ] Incluí testes (unitários, integração ou manuais) para a minha alteração
+5. [ ] Atualizei a documentação (em caso de ser necessário, como uma nova rota, etc)
